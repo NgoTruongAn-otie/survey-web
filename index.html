@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head lang="vi">
+        <meta charset="UTF-8">
+        <title>Khảo sát</title>
+    </head>
+    <body style="background-color: aquamarine; font-family: "Segoe UI, Arial, sans-serif;">
+        <h1 style="text-align: center; font-size: 45px;"><b>Biểu mẫu khảo sát</b></h1>
+        <div style="background-color: white; padding: 12px; margin-left: 15px; margin-right: 15px; border: solid 2px;">
+            <form style="font-size: 25px; margin-left: 12px;">
+                <p>
+                    <label for="name"><b>Họ tên</b></label> <br>
+                    <input type="text" name="name" id="name" placeholder="Nhập tên của bạn" size="65" style="font-size: 20px; margin-top: 5px; padding: 10px;">
+                </p>
+                 <p>
+                    <label for="mail"><b>Email</b></label> <br>
+                     <input type="email" name="mail" id="mail" placeholder="Nhập email của bạn" size="65" style="font-size: 20px; margin-top: 5px; padding: 10px;">
+                </p>
+                 <p>
+                    <label for="age"><b>Tuổi</b></label> <br>
+                     <input type="number" name="age" id="age" placeholder="Nhập tuổi" style="font-size: 20px; margin-top: 5px; padding: 10px; width: 650px;">
+                </p>
+                 <p>
+                    <label for="job"><b>Hiện tại bạn đang là?</b></label> <br>
+                    <select name="job" id="job" style="font-size: 20px; margin-top: 5px; padding: 10px; width: 650px;">
+                        <option disabled selected hidden>Học sinh/Sinh viên </option>
+                        <option>Học sinh</option>
+                        <option>Sinh viên</option>
+                    </select>
+                 </p>
+                 <p>
+                    <div><label for="introduce"><b>Bạn sẽ giới thiệu ITviec với bạn bè chứ?</b></label> </div>
+                   <div style="margin-top: 3px;">
+                    <label><input type="radio" name="introduce" id="introduce">Có</label> <br>
+                    <label><input type="radio" name="introduce" id="introduce">Không</label> <br>
+                    <label><input type="radio" name="introduce" id="introduce">Có thể</label> <br>
+                   </div>
+                 </p>
+                  <p>
+                    <div><label for="lang"><b>Ngôn ngữ lập trình và framework bạn đã biết?</b> <b style="font-size: smaller;">(Có thể chọn nhiều đáp án)</b></label> </div>
+                   <div style="margin-top: 3px;">
+                    <label><input type="checkbox" name="lang" id="lang">C</label> <br>
+                    <label><input type="checkbox" name="lang" id="lang">C++</label> <br>
+                    <label><input type="checkbox" name="lang" id="lang">C#</label> <br>
+                   </div>
+                 </p>
+                 <p>
+                    <label for="comment"><b>Bạn có câu hỏi gì cho ITviec không?</b></label>
+                    <textarea name="comment" id="comment" placeholder="Enter your comment here" rows="4" cols="70" style="font-size: 20p; margin-top: 5px; padding: 10px;"></textarea>
+                 </p>
+            </form>
+            <form>
+                <button type="submit" style="background-color: #00C471; color: white; font-size: 20px; padding: 10px 0; width: 100%;">Submit</button>
+            </form>
+        </div>
+    </body>
+</html>
